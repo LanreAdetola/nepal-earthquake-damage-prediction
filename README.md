@@ -90,6 +90,12 @@ jupyter
 ---
 
 
+<img width="1136" height="574" alt="Screenshot 2025-10-05 at 09 39 44" src="https://github.com/user-attachments/assets/fc13c7a7-fac0-45f6-82f0-5338ad6ffb32" />
+
+
+
+
+
 ## 📈 Results Summary
 
 | Model | Accuracy | Precision | Recall | F1-Score |
