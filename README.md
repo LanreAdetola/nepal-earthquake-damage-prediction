@@ -50,7 +50,7 @@ The main notebook [`solution.ipynb`](notebooks/solution.ipynb) contains the foll
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/nepal-earthquake-ml.git
+git clone https://github.com/<your-username>/nepal-earthquake-damage-prediction.git
 cd nepal-earthquake-ml
 ```
 
