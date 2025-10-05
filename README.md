@@ -50,7 +50,7 @@ The main notebook [`solution.ipynb`](notebooks/solution.ipynb) contains the foll
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/nepal-earthquake-damage-prediction.git
+git clone https://github.com/<your-username>/nepal-earthquake-ml.git
 cd nepal-earthquake-ml
 ```
 
@@ -89,18 +89,22 @@ jupyter
 
 ---
 
+
 ## 📈 Results Summary
 
-| Model | ROC AUC | PR AUC | Accuracy |
-|--------|----------|--------|-----------|
-| Logistic Regression | 0.84 | 0.79 | 0.82 |
-| Random Forest | 0.91 | 0.88 | 0.89 |
-| XGBoost (Final) | **0.93** | **0.90** | **0.91** |
-
-*(Update this table with your actual results.)*
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|-----------|------------|----------|-----------|
+| **Logistic Regression** | 0.672 | 0.546 | 0.114 | 0.188 |
+| **Random Forest** | **0.748** | **0.661** | **0.505** | **0.573** |
 
 ---
 
+### 🧠 Insights
+
+- **Random Forest** outperformed Logistic Regression across all metrics, showing stronger capability to capture non-linear relationships.  
+- Logistic Regression’s low recall (0.114) suggests underfitting — it struggles to detect buildings with severe damage.  
+- Random Forest achieved a better **balance between recall and precision**, indicating more reliable predictions for both classes.  
+- The next improvement step could involve **hyperparameter tuning**, **class balancing (SMOTE)**, or trying **XGBoost** to push recall higher without losing precision.
 ## 🚀 Future Improvements
 
 - Add deep learning baseline (e.g., TensorFlow or PyTorch).
