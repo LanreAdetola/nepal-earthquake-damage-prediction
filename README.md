@@ -118,7 +118,7 @@ jupyter
 
 **Lanre Adetola**  
 BSc Information Management – Data Science, Protection & Security  
-[LinkedIn](https://www.linkedin.com/in/lanre-adetola) • [GitHub](https://github.com/<your-username>)
+[LinkedIn](https://www.linkedin.com/in/lanre-adetola0/) • [GitHub](https://github.com/LanreAdetola)
 
 ---
 
